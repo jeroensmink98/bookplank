@@ -11,7 +11,6 @@ import Nav from '$lib/components/nav.svelte';
 	<Nav />
 </div>
 <div class="p-2">
-	<!-- Page Content-->
 	<slot />
 </div>
 <div>
