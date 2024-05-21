@@ -1,6 +1,6 @@
-# Bookstore
+# Bookplank.app
 
-Your own personal bookstore.
+Your own personal bookplank to keep track of your books.
 
 Features
 
