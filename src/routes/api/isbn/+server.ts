@@ -4,7 +4,7 @@ import { newBookPreview } from '../../../stores';
 import type { BookInfo } from '../../../models/book';
 
 export const GET: RequestHandler = async ({ url }) => {
-    const isbn = String(url.searchParams.get('isbn'));
+    const isbn = url.searchParams.get('isbn');
 
     if (!isbn) {
         return new Response(JSON.stringify({ error: 'ISBN parameter is required' }), { status: 400 });
